@@ -10,5 +10,6 @@ Echoe.new("quick-bundler", "0.0.1") do |p|
   p.email                    = "alexmchale@gmail.com"
   p.ignore_pattern           = %w( tmp/* script/* )
   p.development_dependencies = []
+  p.require_signed           = true
 
 end
