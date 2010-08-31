@@ -23,3 +23,10 @@ Stick this at the top of you're app ...
     require "quick-bundler"
 
 ... and you're done!
+
+
+
+License
+=======
+
+This code is released under the MIT license.
