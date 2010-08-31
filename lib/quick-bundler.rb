@@ -1,13 +1,5 @@
-# Quick Bundler searches for the nearest Gemfile and loads the libraries
-# specified inside it. The goal is to be able to stick this at the top
-# of any app:
-#
-# require "rubygems"
-# require "quick-bundler"
-#
-# And be done!
-
 begin
+
   require "bundler"
 
   if ENV["BUNDLE_GEMFILE"].nil?
@@ -33,4 +25,5 @@ begin
   end
 
   Bundler.require if File.file? ENV["BUNDLE_GEMFILE"]
+
 end
