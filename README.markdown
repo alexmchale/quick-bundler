@@ -20,4 +20,4 @@ Stick this at the top of you're app ...
 
 ... and you're done!
 
-[1]: http://gembundler.com/ "Bundler"
+[Bundler]: http://gembundler.com/
