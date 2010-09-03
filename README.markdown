@@ -2,7 +2,7 @@ Quick Bundler
 =============
 
 Quick Bundler searches for the nearest Gemfile and loads the gems specified
-inside it. It's nothing more than a wrapper to Bundler to locate a Gemfile,
+inside it. It's nothing more than a wrapper to [Bundler][] to locate a Gemfile,
 load it, then require all gems in the Gemfile.
 
 Installing
@@ -19,3 +19,5 @@ Stick this at the top of you're app ...
     require "quick-bundler"
 
 ... and you're done!
+
+[1]: http://gembundler.com/ "Bundler"
